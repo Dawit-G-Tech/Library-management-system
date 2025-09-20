@@ -24,7 +24,7 @@ This is a **Library Management System** built entirely using Java with a graphic
   - Menu-driven navigation
   - Dialogs for confirmations and alerts
 - **Data Persistence**
-  - Data stored using file serialization or embedded database (specify which your project uses)
+  - MYSQL
 - **Validation & Error Handling**
   - Input validation for all forms
   - User-friendly error messages
@@ -35,7 +35,8 @@ This is a **Library Management System** built entirely using Java with a graphic
 
 - **Java SE** (JDK 8 or above)
 - **Java Swing** (for GUI)
-- **File I/O / Serialization** or **Embedded Database** (e.g., SQLite) *(specify which is used in your project)*
+- **MYSQL** (for database)
+- **File I/O / Serialization** 
 - **Object-Oriented Programming Principles**
 
 ---
@@ -52,7 +53,7 @@ This is a **Library Management System** built entirely using Java with a graphic
 1. **Clone or Download the Repository**
    - Download the ZIP and extract, or use:
      ```
-     git clone <repository-url>
+     git clone https://github.com/Dawit-G-Tech/Library-management-system.git
      ```
 
 2. **Compile the Source Code**
@@ -63,9 +64,9 @@ This is a **Library Management System** built entirely using Java with a graphic
      ```
 
 3. **Run the Application**
-   - Run the main class (replace `MainClassName` with your main class, e.g., `LibraryManagementSystem`):
+   - Run the main class (`Home.java`):
      ```
-     java -cp src MainClassName
+     java -cp src Home
      ```
 
 ---
@@ -75,13 +76,18 @@ This is a **Library Management System** built entirely using Java with a graphic
 ```
 lManagment/
 │
+├── icons
+|
 ├── src/
-│   ├── Book.java
-│   ├── Member.java
-│   ├── Issue.java
-│   ├── Return.java
-│   ├── MainClassName.java
-│   └── ... (other classes)
+    |──lManagment/
+       ├── Book.java
+       ├── Connect.java
+       ├── Defaulters.java
+       ├── Home.java
+       ├── Login.java
+       ├── Register.java
+       ├── User.java
+       └── ... (other classes)
 │
 ├── data/
 │   ├── books.dat
@@ -96,7 +102,7 @@ lManagment/
 
 ## Screenshots
 
-*(Add screenshots of the main windows: dashboard, add book, issue book, etc.)*
+
 
 ---
 
