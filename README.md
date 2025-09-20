@@ -88,11 +88,7 @@ lManagment/
        ├── Register.java
        ├── User.java
        └── ... (other classes)
-│
-├── data/
-│   ├── books.dat
-│   ├── members.dat
-│   └── ... (data files)
+
 │
 ├── README.md
 └── ...
@@ -101,6 +97,11 @@ lManagment/
 ---
 
 ## Screenshots
+
+
+<img width="600" height="500" alt="Pages" src="https://github.com/user-attachments/assets/a2146a1f-75cc-4a07-b26b-cbcb475c5034" />
+
+<img width="368" height="328" alt="Pages" src="https://github.com/user-attachments/assets/537231a9-b9a3-42f6-89e1-1d19f5586c78" />
 
 
 
